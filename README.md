@@ -7,6 +7,9 @@ using System.Text.RegularExpressions;
 
 static bool CheckValueIsNumber(string inputString)
 {
+
    // .NET : Check if String Contains Only Numbers
+   
    return Regex.IsMatch(inputString, @"^\d+$");
+   
 }
